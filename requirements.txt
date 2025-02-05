@@ -1,0 +1,10 @@
+Flask==2.3.2              # The Flask framework for building the web application
+Jinja2==3.1.2             # Template engine for Flask (usually comes bundled with Flask)
+Werkzeug==2.3.6           # Flask dependency for handling WSGI (Web Server Gateway Interface)
+MarkupSafe==2.1.3         # For safe handling of user-generated content in Jinja2 templates
+Flask-WTF==1.0.1          # Flask extension for handling web forms
+WTForms==3.0.1            # Required by Flask-WTF for form validation
+Flask-Session==0.4.0      # Flask extension for server-side session handling
+Flask-SQLAlchemy==3.0.3   # ORM for database interactions
+SQLAlchemy==2.0.21        # Core SQLAlchemy package (required by Flask-SQLAlchemy)
+itsdangerous==2.1.2       # Used by Flask for securely signing data (for sessions)
