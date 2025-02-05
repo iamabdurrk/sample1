@@ -1,1 +1,5 @@
-layout.html
+def is_palindrome(s):
+    return s == s[::-1]
+
+text = input("Enter a string: ")
+print(f"{text} is a palindrome." if is_palindrome(text) else f"{text} is not a palindrome.")
